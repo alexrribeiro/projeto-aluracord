@@ -98,7 +98,7 @@ export default function PaginaInicial() {
             padding: '32px',
             margin: '16px',
             boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-            backgroundColor: appConfig.theme.colors.neutrals[700]
+            backgroundColor: appConfig.theme.colors.neutrals[800]
           }}
         >
           {/* Formulário */}
@@ -132,7 +132,7 @@ export default function PaginaInicial() {
                   textColor: appConfig.theme.colors.neutrals[200],
                   mainColor: appConfig.theme.colors.neutrals[900],
                   mainColorHighlight: appConfig.theme.colors.primary[500],
-                  backgroundColor: appConfig.theme.colors.neutrals[800]
+                  backgroundColor: appConfig.theme.colors.neutrals[600]
                 }
               }}
             />
@@ -158,7 +158,7 @@ export default function PaginaInicial() {
               alignItems: 'center',
               maxWidth: '200px',
               padding: '16px',
-              backgroundColor: appConfig.theme.colors.neutrals[800],
+              backgroundColor: appConfig.theme.colors.neutrals[700],
               border: '1px solid',
               borderColor: appConfig.theme.colors.neutrals[999],
               borderRadius: '10px',
