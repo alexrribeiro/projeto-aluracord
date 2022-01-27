@@ -97,6 +97,7 @@ export default function ChatPage() {
               }}
               placeholder="Insira sua mensagem aqui..."
               type="textarea"
+              autoFocus
               styleSheet={{
                 width: '100%',
                 border: '0',
@@ -106,6 +107,19 @@ export default function ChatPage() {
                 backgroundColor: appConfig.theme.colors.neutrals[800],
                 marginRight: '12px',
                 color: appConfig.theme.colors.neutrals[200]
+              }}
+            />
+            <Button
+              type="button"
+              label="Enviar"
+              onClick={event => {
+                handleNovaMensagem(mensagem);
+              }}
+              buttonColors={{
+                contrastColor: appConfig.theme.colors.neutrals['000'],
+                mainColor: appConfig.theme.colors.primary[500],
+                mainColorLight: appConfig.theme.colors.primary[400],
+                mainColorStrong: appConfig.theme.colors.primary[600]
               }}
             />
           </Box>
