@@ -80,7 +80,7 @@ export default function PaginaInicial() {
               // Prevenindo carregamento de toda a página quando alguém clica para submeter
               eventInfo.preventDefault();
               console.log('Alguém submeteu o formulário');
-              roteamento.push('/chat');
+              roteamento.push(`/chat?username=${username}`);
 
               // window.location.href = '/chat';
             }}
